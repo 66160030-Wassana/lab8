@@ -20,12 +20,20 @@
             <button type="button" id="cancel-btn" class="hidden">ยกเลิก</button>
         </form>
      </div>
+
+     <!-- ฟิลเตอร์แท็ก -->
+    <div class="filter-section">
+        <input type="text" id="filter-tags" placeholder="กรองตามแท็ก" oninput="blogUI.filterBlogs()">
+    </div>
+
      <!-- รายการบล็อค -->
       <div id="blog-list">
+        <script src="script.js"></script>
+
         <!-- JavaScript จะเพิ่มบล็อคที่นี่ -->
       </div>
 
-      <script src="script.js"></script>
+      
     
 </body>
 </html>

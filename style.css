@@ -14,12 +14,17 @@ body {
 .blog-form {
     width: 100%;
     padding: 8px;
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 .blog-form textarea {
+    width: 99%;
     height: 150px;
     resize: vertical;
+}
+.blog-form #title {
+    width: 97.5%;
 }
 .blog-post {
     background: white;
@@ -27,7 +32,7 @@ body {
     margin-bottom: 20px;
     border: 1p solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba((0), 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .blog-title {
     margin: 0 0 10px 0;
